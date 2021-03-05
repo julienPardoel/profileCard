@@ -1,0 +1,64 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(../images/bg-pattern-bottom.svg);
+    opacity: blue 0.3;
+    
+}
+
+.card{
+    border: black 1px solid;
+    margin: auto;
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    margin-top: 10%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bgTop{
+    background-image: url(../images/bg-pattern-card.svg);
+    height: 200px;
+    width: 100%;
+}
+
+.containerPicture{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.userPicture{
+    border-radius: 50%;
+    transform: translateY(-50px);
+    border: solid 4px white;
+}
+
+.user{
+    width:100%;
+    background-color: white;
+}
+
+.userName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:40%;
+    margin: auto;
+}
+
+.location{
+    text-align: center
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-top: solid 1px black;
+    background-color: white;
+}
